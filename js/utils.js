@@ -47,6 +47,8 @@ function restart(){
   timer = 30;
   player.dead = false;
   enemy.dead = false;
+  player.switchSprite('idle')
+  enemy.switchSprite('idle')
   player.health = 100;
   enemy.health = 100;
   player.position.x = 200
